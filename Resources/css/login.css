@@ -3,7 +3,6 @@ body {
 }
 
 .navbar {
-    display: flex;
     position: sticky;
     top: 0;
     width: auto;
@@ -11,7 +10,7 @@ body {
     border: 100px;
     border-radius: 10px;
     background-color: rgb(14, 13, 13);
-    text-align: end;
+    text-align: right;
     padding-top: 10px;
     padding: 1px;
 }
