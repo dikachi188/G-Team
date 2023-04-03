@@ -1,57 +1,72 @@
-body {
-    background-color: rgb(192, 185, 185);
-}
-
-.navbar {
-    position: sticky;
-    top: 0;
-    width: auto;
-    height: auto;
-    border: 100px;
-    border-radius: 10px;
-    background-color: rgb(14, 13, 13);
-    text-align: right;
-    padding-top: 10px;
-    padding: 1px;
-}
-
-.logo {
-    position: sticky;
-    float: left;
-    height: 50px;
-    width: 150px;
-    border-radius: 10px;
-}
-
-.navbar li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-nav ul li a:hover {
-    color: rgb(101, 70, 158);
-}
-
-.home {
-    color: white;
-}
-
-.about {
-    color: white;
-}
-
-.contact {
-    color: white;
-}
-
-.gallery {
-    color: white;
-}
-
-.login {
-    color: white;
-}
-
-.align {
-    text-align: center;
-}
+                    body {
+                        background-color: rgb(192, 185, 185);
+                    }
+                    
+                    .navbar {
+                        position: sticky;
+                        top: 0;
+                        width: auto;
+                        height: auto;
+                        border: 100px;
+                        border-radius: 10px;
+                        background-color: rgb(14, 13, 13);
+                        text-align: right;
+                        padding-top: 10px;
+                        padding: 1px;
+                    }
+                    
+                    .logo {
+                        position: sticky;
+                        float: left;
+                        height: 50px;
+                        width: 150px;
+                        border-radius: 10px;
+                    }
+                    
+                    .navbar li {
+                        display: inline-block;
+                        padding: 0px 20px;
+                    }
+                    
+                    nav ul li a:hover {
+                        color: rgb(101, 70, 158);
+                    }
+                    
+                    .home {
+                        color: white;
+                    }
+                    
+                    .about {
+                        color: white;
+                    }
+                    
+                    .contact {
+                        color: white;
+                    }
+                    
+                    .gallery {
+                        color: white;
+                    }
+                    
+                    .login {
+                        color: white;
+                    }
+                    
+                    form {
+                        text-align: center;
+                        padding: 50px;
+                        border-style: dashed;
+                        border-bottom-left-radius: 30%;
+                        border-bottom-right-radius: 30%;
+                        background-color: rgb(155, 147, 137);
+                    }
+                    
+                    .register {
+                        text-align: center;
+                        padding-bottom: 20px;
+                    }
+                    
+                    .sign {
+                        padding-top: 2%;
+                        text-decoration-color: brown;
+                    }
